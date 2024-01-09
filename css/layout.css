@@ -1,0 +1,94 @@
+@media (max-width: 800px) {
+  .rekke {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .overskrift {
+    font-size: 50px;
+    margin-right: 100px;
+  }
+
+  .overskrift2 {
+    font-size: 80px;
+    color: #ff6b00;
+  }
+
+  .ul_computer {
+    display: none;
+  }
+
+  .ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 800px) {
+  .hoejre {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .grid_1-2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .grid_2-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: start;
+  }
+
+  /*****************grid på tema 2*************/
+  .top1 {
+    grid-column: 1/2;
+  }
+
+  .top2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  .bund1 {
+    grid-column: 1/2;
+    grid-row: 2;
+  }
+
+  .bund2 {
+    grid-column: 2/3;
+    grid-row: 2;
+  }
+
+  .grid_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .forsidegrid {
+    display: flex;
+    align-items: baseline;
+  }
+}
+
+.grid_1-1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.rekke1 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+  margin-top: 40px;
+}
+
+.rekke2 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+}
